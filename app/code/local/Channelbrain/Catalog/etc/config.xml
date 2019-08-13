@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+ 
+    <modules>
+       <Channelbrain_Catalog>
+         <version>0.1.0</version>
+       </Channelbrain_Catalog>
+    </modules>
+     
+         
+    <global>
+        <models>
+            <catalog>
+                <rewrite>
+                    <product_type_price>Channelbrain_Catalog_Model_Product_Type_Price</product_type_price>
+                    <product_attribute_backend_tierprice>Channelbrain_Catalog_Model_Product_Attribute_Backend_Tierprice</product_attribute_backend_tierprice>
+			</rewrite>
+            </catalog>
+			<catalog_resource>
+			<rewrite>
+				<product_collection>Channelbrain_Catalog_Model_Resource_Product_Collection</product_collection>
+			</rewrite>
+			</catalog_resource>                           
+            <catalog_resource_eav_mysql4>
+                <rewrite>
+                    <product_attribute_backend_tierprice>Channelbrain_Catalog_Model_Resource_Eav_Mysql4_Product_Attribute_Backend_Tierprice</product_attribute_backend_tierprice>
+                </rewrite>                           
+            </catalog_resource_eav_mysql4>
+        </models>
+    </global>
+ 
+</config>

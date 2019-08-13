@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+ 
+        <Channelbrain_TierPriceDates>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Channelbrain_TierPriceDates>
+ 
+    </modules>
+</config>

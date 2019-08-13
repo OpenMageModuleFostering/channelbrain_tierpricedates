@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Channelbrain_TierPriceDates>
+            <version>0.1.0</version>
+        </Channelbrain_TierPriceDates>
+    </modules>
+    <global>
+        <resources>
+            <tierpricing_setup>
+                <setup>
+                    <module>Channelbrain_TierPriceDates</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </tierpricing_setup>
+            <tierpricing_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </tierpricing_write>
+            <tierpricing_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </tierpricing_read>
+        </resources>
+    </global>
+	
+	<adminhtml>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <mypackage>
+                                        <title>Inchoo - All</title>
+                                    </mypackage>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</adminhtml>
+	
+</config>
+
