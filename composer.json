@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Channelbrain_TierPriceDates",
+    "name": "OpenMageModuleFostering\/Channelbrain_TierPriceDates",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "This extension add from date and to date in tier price",
     "authors": [
-    {
-        "name": "Webdesk",
-        "email": "amit.webdesksolution@gmail.com"
-    }
-],
+        {
+            "name": "Webdesk",
+            "email": "amit.webdesksolution@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
