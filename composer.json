@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Channelbrain_TierPriceDates",
+    "name": "openmage-module-fostering\/channelbrain_tierpricedates",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension add from date and to date in tier price",
     "authors": [
